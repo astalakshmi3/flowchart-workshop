@@ -114,6 +114,7 @@ I wrote the pseudo code of this programm and drew the flowchart.
 ## FLOWCHART
 
 ```mermaid
+
 flowchart TD
 A([Start]) --> B[/Input length, width/]
 B --> C[area = length × width]
@@ -137,6 +138,7 @@ D --> E([End])
 ## FLOWCHART
 
 ``` mermaid
+
 flowchart TD
 A([Start]) --> B[/Input average/]
 B --> C{average >= 50?}
@@ -172,4 +174,34 @@ F --> D
 D -->|No| G[/Display fact/]
 G --> H([End])
 
+```
+
+# 10. CALCULATE DISCOUNT OF PRICE
+
+## PSEUDOCODE
+
+* START
+* INPUT amount
+* IF amount > 1000
+* discount = amount × 0.10
+* final = amount - discount
+* ELSE
+* final = amount
+* END IF
+* DISPLAY final
+* END
+
+## FLOWCHART
+
+``` mermaid
+
+flowchart TD
+A([Start]) --> B[/Input amount/]
+B --> C{amount > 1000?}
+C -->|Yes| D[discount = amount × 0.10]
+D --> E[final = amount - discount]
+C -->|No| F[final = amount]
+E --> G[/Display final/]
+F --> G
+G --> H([End])
 ```

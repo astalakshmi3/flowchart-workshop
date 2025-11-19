@@ -1,0 +1,10 @@
+START
+INPUT amount
+IF amount > 1000
+  discount = amount × 0.10
+  final = amount - discount
+ELSE
+  final = amount
+END IF
+DISPLAY final
+END
