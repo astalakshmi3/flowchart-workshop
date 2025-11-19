@@ -122,3 +122,27 @@ C --> D[/Display area/]
 D --> E([End])
 
 ```
+# 8. DETERMINE PASS OR FAIL
+
+## PSEUDOCODE
+
+* START
+* INPUT average
+* IF average >= 50
+* DISPLAY "Pass"
+* ELSE
+* DISPLAY "Fail"
+* END IF
+* END
+
+## FLOWCHART
+
+``` mermaid
+flowchart TD
+A([Start]) --> B[/Input average/]
+B --> C{average >= 50?}
+C -->|Yes| D[/Display "Pass"/]
+C -->|No| E[/Display "Fail"/]
+D --> F([End])
+E --> F
+```

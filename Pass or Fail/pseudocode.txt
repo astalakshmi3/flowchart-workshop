@@ -1,0 +1,8 @@
+START
+INPUT average
+IF average >= 50
+  DISPLAY "Pass"
+ELSE
+  DISPLAY "Fail"
+END IF
+END
