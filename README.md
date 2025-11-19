@@ -13,6 +13,7 @@ ELSE
 ENDIF
 END
 
+<<<<<<< HEAD
 FLOWCHART
 
 ![alt text](<Calculate Total and Avg/Total and avg.png>)
@@ -81,3 +82,9 @@ FLOECHART
 ![alt text](<Simple Intreset Calculator/SIP .png>)
 
 6.
+=======
+Flowchart
+<img width="651" height="531" alt="image" src="https://github.com/user-attachments/assets/cd7d80f8-f284-4a2e-aedf-524a43354adb" />
+
+
+>>>>>>> 3e65a1bd03b606520f7adfe4ba705859b33a63ff
