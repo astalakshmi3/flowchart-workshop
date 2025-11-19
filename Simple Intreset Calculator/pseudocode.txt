@@ -1,0 +1,5 @@
+START
+INPUT P, R, T
+SI = (P × R × T) / 100
+DISPLAY SI
+END
