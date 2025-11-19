@@ -1,0 +1,5 @@
+START
+INPUT length, width
+area = length × width
+DISPLAY area
+END
