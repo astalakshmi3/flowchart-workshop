@@ -14,5 +14,6 @@ ENDIF
 END
 
 Flowchart
+<img width="651" height="531" alt="image" src="https://github.com/user-attachments/assets/cd7d80f8-f284-4a2e-aedf-524a43354adb" />
 
 check even or odd .drawio.png
