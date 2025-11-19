@@ -1,0 +1,10 @@
+START
+INPUT num
+IF num > 0
+  DISPLAY "Positive"
+ELSE IF num < 0
+  DISPLAY "Negative"
+ELSE
+  DISPLAY "Zero"
+END IF
+END
