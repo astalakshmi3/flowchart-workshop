@@ -13,10 +13,9 @@ ELSE
 ENDIF
 END
 
-<<<<<<< HEAD
 FLOWCHART
 
-![alt text](<Calculate Total and Avg/Total and avg.png>)
+<img width="651" height="531" alt="image" src="https://github.com/user-attachments/assets/cd7d80f8-f284-4a2e-aedf-524a43354adb" />
 
 2. Calculate Total and Avg
 
@@ -31,7 +30,7 @@ END
 
 FLOWCHART
 
-![Flowchart 1](images/Q1_Total_Average.png)
+![alt text](<Calculate Total and Avg/Total and avg.png>)
 
 3. Multiplication of numbers
 
@@ -46,7 +45,7 @@ END
 
 FLOWCHART
 
-![Flowchart 2](images/Q2_Multiplication.png)
+![alt text](Multiplication/Multiple.png)
 
 4. Poistive, Negative and Zero
 
@@ -65,7 +64,7 @@ END
 
 FLOWCHART
 
-![Flowchart 3](images/Q3_Pos_Neg_Zero.png)
+![alt text](<Poistive, Negative or Zero/Post, Neg, Zero.png>)
 
 5. Simple Interest Calculator
 
@@ -81,10 +80,21 @@ FLOECHART
 
 ![alt text](<Simple Intreset Calculator/SIP .png>)
 
-6.
-=======
+ 6. Average Temperature Calculation
+
+ PSEUDOCODE
+
+ START
+sum = 0
+FOR i = 1 to 7
+  INPUT temp
+  sum = sum + temp
+END FOR
+average = sum / 7
+DISPLAY average
+END
+
 Flowchart
-<img width="651" height="531" alt="image" src="https://github.com/user-attachments/assets/cd7d80f8-f284-4a2e-aedf-524a43354adb" />
 
+![alt text](<Avg Temp Calculation/Avg Temp.png>)
 
->>>>>>> 3e65a1bd03b606520f7adfe4ba705859b33a63ff

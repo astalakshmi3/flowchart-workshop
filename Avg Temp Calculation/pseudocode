@@ -1,0 +1,9 @@
+START
+sum = 0
+FOR i = 1 to 7
+  INPUT temp
+  sum = sum + temp
+END FOR
+average = sum / 7
+DISPLAY average
+END
