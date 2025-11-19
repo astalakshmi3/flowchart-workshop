@@ -1,0 +1,7 @@
+START
+   INPUT A, B, C
+   Total = A + B + C
+   Avg = Total / 3
+   OUTPUT Total = Total
+   OUTPUT Avg = Avg
+END
