@@ -115,7 +115,6 @@ I wrote the pseudo code of this programm and drew the flowchart.
 
 ```mermaid
 flowchart TD
-
 A([Start]) --> B[/Input length, width/]
 B --> C[area = length × width]
 C --> D[/Display area/]
@@ -145,4 +144,32 @@ C -->|Yes| D[/Display "Pass"/]
 C -->|No| E[/Display "Fail"/]
 D --> F([End])
 E --> F
+```
+
+# 9. CALCULATE FACTORIAL OF A NUMBER
+
+## PESUDOCODE
+
+* START
+* INPUT n
+* fact = 1
+* FOR i = 1 to n
+* fact = fact × i
+* END FOR
+* DISPLAY fact
+* END
+
+## FLOWCHART
+
+``` mermaid
+flowchart TD
+A([Start]) --> B[/Input n/]
+B --> C[fact = 1, i = 1]
+C --> D{Is i <= n?}
+D -->|Yes| E[fact = fact × i]
+E --> F[i = i + 1]
+F --> D
+D -->|No| G[/Display fact/]
+G --> H([End])
+
 ```

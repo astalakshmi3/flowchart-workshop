@@ -1,0 +1,8 @@
+START
+INPUT n
+fact = 1
+FOR i = 1 to n
+  fact = fact × i
+END FOR
+DISPLAY fact
+END
